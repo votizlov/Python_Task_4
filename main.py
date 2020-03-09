@@ -3,14 +3,15 @@ f1 = f.readlines()
 
 
 def reverse_text(lines):
-    res = []
+    res = ""
     for i in lines:
-        resLine = []
+        resLine = ""
         line = i.split()
         for j in line:
-            resLine.append(j[::-1])
-            resLine.append(" ")
-        res.append(resLine)
+            resLine += (j[::-1])
+            resLine += " "
+        res += resLine
+        res += "\n"
     return str(res)
 
 
