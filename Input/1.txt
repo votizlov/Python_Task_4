@@ -1,1 +1,20 @@
-a = a + 1 jshfcuash fhas fhf hwaf owjeaiof c = c + 1
+abstract	as	base	bool
+break	byte	case	catch
+char	checked	class	const
+continue	decimal	delegate
+do	double	else	enum
+event	explicit	extern	false
+finally	fixed	float	for
+foreach	goto	if	implicit
+in	int	interface	internal
+is	lock	long	namespace
+новую	null	object	operator
+out	override	params	private
+protected	public	readonly	ref
+return	sbyte	sealed	short
+sizeof	stack alloc	static	string
+struct	switch	this	throw
+true	try	typeof	uint
+ulong	unchecked	unsafe	ushort
+using	using static	virtual	void
+volatile	while

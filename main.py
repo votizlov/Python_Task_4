@@ -1,12 +1,16 @@
 import re
 
 f = open("Input/1.txt", "r")
-f1 = f.readline()
+f1 = f.readlines()
+f = open("Input/text.txt","r")
 
 
-def format_text(line):
-    return re.sub(r'(\w+)\s+=\s+\1\s\+\s+1', r'\1++', line)
+def format_text(key):
+    return re.findall(rf'\s+{key}\s+', f.readline())
 
 
 f = open("Output/1.txt", "w+")
-f.write(format_text(f1))
+for line in f1:
+    for key in line.split():
+        print(key)
+        f.write(str(format_text(key)))
